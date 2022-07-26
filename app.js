@@ -11,7 +11,7 @@ const songs = [
     },
     {
         id: 2,
-        songName: `On My Way <br>
+        songName: `Alan Walker-Fade<br>
         <div class="subtitle">
             Alan Walker
         </div>`,
@@ -19,49 +19,49 @@ const songs = [
     },
     {
         id: 3,
-        songName: `On My Way <br>
+        songName: `Cartoon-On & On <br>
         <div class="subtitle">
-            Alan Walker
+            Daniel Levi
         </div>`,
         poster: "img/3.jpg"
     },
     {
         id: 4,
-        songName: `On My Way <br>
+        songName: `Warriyo-Mortals <br>
         <div class="subtitle">
-            Alan Walker
+            Mortals
         </div>`,
         poster: "img/4.jpg"
     },
     {
         id: 5,
-        songName: `On My Way <br>
+        songName: `Ertugrul Gazi <br>
         <div class="subtitle">
-            Alan Walker
+            Ertugrul
         </div>`,
         poster: "img/5.jpg"
     },
     {
         id: 6,
-        songName: `On My Way <br>
+        songName: `Electronic Music <br>
         <div class="subtitle">
-            Alan Walker
+            Electro
         </div>`,
         poster: "img/6.jpg"
     },
     {
         id: 7,
-        songName: `On My Way <br>
+        songName: `Agar Tum Sath Ho <br>
         <div class="subtitle">
-            Alan Walker
+            Tamashaa
         </div>`,
         poster: "img/7.jpg"
     },
     {
         id: 8,
-        songName: `On My Way <br>
+        songName: `Suna Hai <br>
         <div class="subtitle">
-            Alan Walker
+            Neha Kakkar
         </div>`,
         poster: "img/8.jpg"
     },
@@ -69,100 +69,100 @@ const songs = [
         id: 9,
         songName: `Dilber <br>
         <div class="subtitle">
-            Satymev Jayete
+            Satyameva Jayate
         </div>`,
         poster: "img/9.jpg"
     },
     {
         id: 10,
-        songName: `On My Way <br>
+        songName: `Duniya <br>
         <div class="subtitle">
-            Alan Walker
+            Luka Chuppi
         </div>`,
         poster: "img/10.jpg"
     },
     {
         id: 11,
-        songName: `On My Way <br>
+        songName: `Lagdi Lahore di <br>
         <div class="subtitle">
-            Alan Walker
+            Stree Dancer 3D
         </div>`,
         poster: "img/11.jpg"
     },
     {
         id: 12,
-        songName: `On My Way <br>
+        songName: `Putt Jatt Da<br>
         <div class="subtitle">
-            Alan Walker
+            Putt Jatt Da
         </div>`,
         poster: "img/12.jpg"
     },
     {
         id: 13,
-        songName: `On My Way <br>
+        songName: `Baarishein <br>
         <div class="subtitle">
-            Alan Walker
+            Atif Aslam
         </div>`,
         poster: "img/13.jpg"
     },
     {
         id: 14,
-        songName: `On My Way <br>
+        songName: `Vaaste <br>
         <div class="subtitle">
-            Alan Walker
+            Dhvani Bhanushali
         </div>`,
         poster: "img/14.jpg"
     },
     {
         id: 15,
-        songName: `On My Way <br>
+        songName: `Lut Gaye<br>
         <div class="subtitle">
-            Alan Walker
+            Jubin Nautiyal
         </div>`,
         poster: "img/15.jpg"
     },
     {
         id: 16,
-        songName: `On My Way <br>
+        songName: `Meri Zindagi Hai Tu <br>
         <div class="subtitle">
-            Alan Walker
+            Jubin Nautiyal
         </div>`,
         poster: "img/16.jpg"
     },
     {
         id: 17,
-        songName: `On My Way <br>
+        songName: `Zaroori Tha <br>
         <div class="subtitle">
-            Alan Walker
+        Rahat Fateh Ali Khan
         </div>`,
         poster: "img/17.jpg"
     },
     {
         id: 18,
-        songName: `On My Way <br>
+        songName: `Pasoori<br>
         <div class="subtitle">
-            Alan Walker
+        Ali Sethi | Shae Gill
         </div>`,
         poster: "img/18.jpg"
     },
     {
         id: 19,
-        songName: `On My Way <br>
+        songName: `Eh Munde Paagal Ne Saare <br>
         <div class="subtitle">
-            Alan Walker
+        AP Dhillon | GURINDER GILL | SHINDA KAHLON
         </div>`,
         poster: "img/19.jpg"
     },
     {
         id: 20,
-        songName: `On My Way <br>
+        songName: ` Vande Matram <br>
         <div class="subtitle">
-            Alan Walker
+       
+        Bankin Chandra
         </div>`,
         poster: "img/20.jpg"
     }
 ]
-
 
 
 Array.from(document.getElementsByClassName('songItem')).forEach((e, i) => {
