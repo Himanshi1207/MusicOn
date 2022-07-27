@@ -765,3 +765,81 @@ header .song_side .popular_artist .item li img {
     height: 100%;
     border-radius: 50%;
 }
+
+/* Login Page CSS */
+header .left_bx,.right_bx{
+    color: black;
+    position: relative;
+    width: 65%;
+    height: 100%;
+    border: 1px solid white;
+    background: #0b1320;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .left_bx{
+    width: 35%;
+    background-color: #fff;
+    box-shadow: 5px 0px 2px #090f1f;
+}
+header .left_bx .content{
+    width: 75%;
+    height: auto;
+    /* border: 1px solid black; */
+    padding:25px 20px;
+}
+header .left_bx .content .card{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+}
+header .left_bx .content .card label{
+    font-size: 14px;
+}
+header .left_bx .content .card input{
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid rgb(154, 154, 154);
+    background: rgb(238, 238, 238);
+    margin-top: 5px;
+}
+header .left_bx .content .submit{
+    margin-top: 30px;
+    padding: 8px 20px;
+    color:white;
+    background: #111727;
+    width: 100%;
+    cursor: pointer;
+}
+header .left_bx .content .check{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+header .left_bx .content .check span{
+    margin-left: 5px;
+    font-size: 13px;
+}
+header .left_bx .content p{
+    margin-top: 90px;
+    text-align: center;
+}
+header .left_bx .content p a{
+    text-decoration: none;
+    color: #5adae0;
+    font-weight: bold;
+}
+header .right_bx h3{
+    position: absolute;
+    color: #111727;
+    background: white;
+    right: 0;
+    bottom: 20px;
+    padding: 3px 10px;
+    border-radius: 5px 0px 0px 5px;
+    font-size: 13px;
+}
